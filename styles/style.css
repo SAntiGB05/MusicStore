@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-  background-color: rgb(230, 228, 225);
+  background-color: #e9e8e1 !important;
   margin: 30px;
   border-radius: 16px;
 }
@@ -65,16 +65,16 @@ body {
   margin-bottom: 1rem;
 }
 
-.hero-section > a{
-  z-index: 2; 
-  color: #bfc6c7;
-  border-color:  #bfc6c7;
+.btn {
+  z-index: 2 !important; 
+  color: #a9aaa7 !important;
+  border-color: #a9aaa7 !important;
 }
 
-.hero-section > a:hover{
-  background-color:  #bfc6c7 !important;
-  border-color:  #bfc6c7;
-  color: black;
-  font-weight: 500;
+.btn:hover {
+  background-color: #d6d6ce !important;
+  border-color: #d6d6ce !important;
+  color: black !important;
+  font-weight: 500 !important;
 }
 
