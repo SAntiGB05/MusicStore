@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+
+body {
+  background-color: #f6f4f4 !important; 
+}
+
+.navbar {
+  background-color: rgb(230, 228, 225);
+  margin: 30px;
+  border-radius: 16px;
+}
+
+.navbar-brand {
+  padding-left: 50px;
+}
+
+.navbar-toggler {
+  border: none !important;
+  position: absolute !important;
+  right: 10px !important; 
+  top: 15px !important;
+  margin: 0 !important;
+  padding-right: 25px !important; 
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.hero-section {
+  position: relative;
+  background: url(/assets/img/fondo.jpg) no-repeat center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.overlay {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; 
+}
+
+.hero-section > h1 {
+  position: relative;
+  color: #bfc6c7;
+  z-index: 2; 
+}
+
+.hero-section > h3 {
+  color: #bfc6c7;
+  font-size: 1.1rem;
+  z-index: 2; 
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.hero-section > a{
+  z-index: 2; 
+  color: #bfc6c7;
+  border-color:  #bfc6c7;
+}
+
+.hero-section > a:hover{
+  background-color:  #bfc6c7 !important;
+  border-color:  #bfc6c7;
+  color: black;
+  font-weight: 500;
+}
+
