@@ -4,7 +4,7 @@ export const products = [
         name: 'Acordeón',
         description: 'Un acordeón de alta calidad ideal para músicos de todos los niveles.',
         price: 299.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/Acordeón.jfif'
     },
     {
@@ -12,7 +12,7 @@ export const products = [
         name: 'Arpa',
         description: 'Arpa clásica con sonido suave, perfecta para conciertos y prácticas.',
         price: 799.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/Arpa.jfif'
     },
     {
@@ -20,7 +20,7 @@ export const products = [
         name: 'Bajo',
         description: 'Bajo eléctrico con excelente tono y versatilidad.',
         price: 499.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/bajo.jpg'
     },
     {
@@ -28,7 +28,7 @@ export const products = [
         name: 'Banjo',
         description: 'Banjo de 5 cuerdas ideal para música folk y bluegrass.',
         price: 199.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/Banjo.jfif'
     },
     {
@@ -36,7 +36,7 @@ export const products = [
         name: 'Batería Acústica',
         description: 'Kit de batería acústica completo para principiantes y profesionales.',
         price: 699.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/bateriaAcustica.avif'
     },
     {
@@ -44,7 +44,7 @@ export const products = [
         name: 'Batería Electrónica',
         description: 'Batería electrónica compacta, perfecta para practicar en casa.',
         price: 599.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/bateriaElectrica.jpg'
     },
     {
@@ -52,7 +52,7 @@ export const products = [
         name: 'Clarinete',
         description: 'Clarinete con sonido rico, ideal para estudiantes y músicos avanzados.',
         price: 249.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/clarinete.avif'
     },
     {
@@ -60,7 +60,7 @@ export const products = [
         name: 'Contrabajo',
         description: 'Contrabajo de calidad profesional para músicos de orquesta.',
         price: 999.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/contraBajo.jfif'
     },
     {
@@ -68,7 +68,7 @@ export const products = [
         name: 'Flauta',
         description: 'Flauta ideal para estudiantes, con tono claro y brillante.',
         price: 149.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/flauta.jfif'
     },
     {
@@ -76,7 +76,7 @@ export const products = [
         name: 'Flauta Traversa',
         description: 'Flauta traversa de nivel avanzado, perfecta para conciertos.',
         price: 299.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/flautaTraversa.avif'
     },
     {
@@ -84,7 +84,7 @@ export const products = [
         name: 'Guitarra Acústica',
         description: 'Guitarra acústica con excelente resonancia y sonido claro.',
         price: 199.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/guitarraAcustica.jpg'
     },
     {
@@ -92,7 +92,7 @@ export const products = [
         name: 'Guitarra Eléctrica',
         description: 'Guitarra eléctrica versátil para cualquier estilo musical.',
         price: 349.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/guitarraElectrica.webp'
     },
     {
@@ -100,7 +100,7 @@ export const products = [
         name: 'Ocarina',
         description: 'Ocarina de cerámica ideal para coleccionistas y músicos.',
         price: 39.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/Ocarina.jpg'
     },
     {
@@ -108,7 +108,7 @@ export const products = [
         name: 'Organeta',
         description: 'Organeta portátil con múltiples tonos y ritmos.',
         price: 89.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/organeta.jfif'
     },
     {
@@ -116,7 +116,7 @@ export const products = [
         name: 'Piano',
         description: 'Piano acústico de calidad profesional para conciertos.',
         price: 1500.00,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/piano.avif'
     },
     {
@@ -124,7 +124,7 @@ export const products = [
         name: 'Saxofón',
         description: 'Saxofón alto con tono suave y excelente proyección.',
         price: 599.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/saxofon.avif'
     },
     {
@@ -132,7 +132,7 @@ export const products = [
         name: 'Trombón',
         description: 'Trombón de latón perfecto para músicos de orquesta.',
         price: 399.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/Trombón.jfif'
     },
     {
@@ -140,7 +140,7 @@ export const products = [
         name: 'Trompeta',
         description: 'Trompeta de calidad para estudiantes y músicos avanzados.',
         price: 299.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/trompeta.avif'
     },
     {
@@ -148,7 +148,7 @@ export const products = [
         name: 'Ukelele',
         description: 'Ukelele soprano ideal para principiantes y músicos aficionados.',
         price: 49.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/ukulele.webp'
     },
     {
@@ -156,7 +156,7 @@ export const products = [
         name: 'Violín',
         description: 'Violín de calidad para estudiantes y músicos intermedios.',
         price: 249.99,
-        quantity: 0,
+        quantity: 1,
         src: './assets/img/violin.jpg'
     }
 ]
