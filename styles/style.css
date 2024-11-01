@@ -5,7 +5,7 @@
 }  
 
 body {
-  background-color: #ffffff !important; 
+  background-color: #f0efec !important; 
 }
 
 .navbar {
@@ -68,7 +68,7 @@ body {
 .btn {
   z-index: 2 !important; 
   color: #a9aaa7 !important;
-  border-color: #a9aaa7 !important;
+  border: none !important;
 }
 
 .btn:hover {
@@ -76,6 +76,24 @@ body {
   border-color: #d6d6ce !important;
   color: black !important;
   font-weight: 500 !important;
+}
+
+.btn img{
+  width: 1.5rem;
+}
+
+main{
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main h2{
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .container{
@@ -86,19 +104,100 @@ body {
 }
 
 .info-card {
-  width: 25rem;
-  height: 45rem;
+  background-color: #ffffff;
+  width: 20rem;
+  height: 30rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border: 0.5px solid #000;
+  justify-content: center;  
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 5px;
   text-align: center;
 }
 
 .info-card img{
-  width: 20rem;
+  width: 11.5rem;
+}
+
+.info-card p{
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.info-card a{
+  display: flex;
+  align-items: center;
+  width: 4.5rem !important;
+  height: 1.6rem !important;
+  border-radius: 16px !important;
+  background-color: #cbccc9 !important;
+  color: #3e3e3c !important;
+  border: none !important;
+}
+
+.info-card a:hover {
+  background-color: #a9aaa7 !important;
+  width: 4.8rem !important;
+  height: 1.8rem !important;
+}
+
+.card-body {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+}
+
+.footer {
+  background-color: #444342;
+  color: #b8b6b2;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.footer-section {
+  margin: 0 1rem;
+}
+
+.footer-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-section p {
+  margin: 0.3rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer-section img {
+  width: 25px;
+  height: 25px;
+  margin-right: 0.5rem;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+}
+
+.footer-section a img {
+  width: 35px;
+  height: 35px;
+  margin: 0.5rem;
+}
+
+.footer-section a img:hover {
+  opacity: 0.7;
 }
